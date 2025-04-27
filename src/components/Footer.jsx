@@ -17,7 +17,7 @@ export default function Footer() {
                 height={40}
                 priority
               />
-              <span className="font-bold text-primary text-2xl">Shirteens</span>
+              <span className="font-bold text-2xl">Shirteens</span>
             </Link>
             <div className="flex flex-col gap-5">
               <div className="flex flex-col gap-5">
@@ -101,27 +101,42 @@ export default function Footer() {
             <h4 className="font-bold text-[20px]">Sobre</h4>
             <ul className="flex flex-col gap-2">
               <li>
-                <Link href="#" className="font-medium text-muted-foreground">
+                <Link
+                  href="#"
+                  className="font-medium text-muted-foreground hover:text-primary"
+                >
                   Sobre nós
                 </Link>
               </li>
               <li>
-                <Link href="#" className="font-medium text-muted-foreground">
+                <Link
+                  href="#"
+                  className="font-medium text-muted-foreground hover:text-primary"
+                >
                   Informação de entrega
                 </Link>
               </li>
               <li>
-                <Link href="#" className="font-medium text-muted-foreground">
+                <Link
+                  href="#"
+                  className="font-medium text-muted-foreground hover:text-primary"
+                >
                   Política de Privacidade
                 </Link>
               </li>
               <li>
-                <Link href="#" className="font-medium text-muted-foreground">
+                <Link
+                  href="#"
+                  className="font-medium text-muted-foreground hover:text-primary"
+                >
                   Termos e Condições
                 </Link>
               </li>
               <li>
-                <Link href="#" className="font-medium text-muted-foreground">
+                <Link
+                  href="#"
+                  className="font-medium text-muted-foreground hover:text-primary"
+                >
                   Fale conosco
                 </Link>
               </li>
@@ -132,27 +147,42 @@ export default function Footer() {
             <h4 className="font-bold text-[20px]">Minha conta</h4>
             <ul className="flex flex-col gap-2">
               <li>
-                <Link href="#" className="font-medium text-muted-foreground">
+                <Link
+                  href="#"
+                  className="font-medium text-muted-foreground hover:text-primary"
+                >
                   Entrar
                 </Link>
               </li>
               <li>
-                <Link href="#" className="font-medium text-muted-foreground">
+                <Link
+                  href="#"
+                  className="font-medium text-muted-foreground hover:text-primary"
+                >
                   Ver carrinho
                 </Link>
               </li>
               <li>
-                <Link href="#" className="font-medium text-muted-foreground">
+                <Link
+                  href="#"
+                  className="font-medium text-muted-foreground hover:text-primary"
+                >
                   Minha Lista de Desejos
                 </Link>
               </li>
               <li>
-                <Link href="#" className="font-medium text-muted-foreground">
+                <Link
+                  href="#"
+                  className="font-medium text-muted-foreground hover:text-primary"
+                >
                   Rastrear meu pedido
                 </Link>
               </li>
               <li>
-                <Link href="#" className="font-medium text-muted-foreground">
+                <Link
+                  href="#"
+                  className="font-medium text-muted-foreground hover:text-primary"
+                >
                   Ajuda
                 </Link>
               </li>
@@ -166,10 +196,10 @@ export default function Footer() {
                 <span className="font-medium text-muted-foreground">
                   Da App Store ou Google Play
                 </span>
-                <div className="flex flex-row gap-2">
+                <div className="gap-2 grid grid-cols-2 w-full max-w-[334px]">
                   <Button
-                    variant="ghost"
-                    className="flex flex-row gap-4 px-7 border rounded-[6px] h-14"
+                    variant="outline"
+                    className="flex flex-row gap-2 hover:bg-primary px-7 border rounded-[6px] w-full h-14 hover:text-white"
                     asChild
                   >
                     <Link href="#">
@@ -180,7 +210,7 @@ export default function Footer() {
                         height={24}
                       />
                       <div className="flex flex-col">
-                        <span className="font-semibold text-[12px] text-gray-500">
+                        <span className="font-semibold text-[12px]">
                           Baixar na
                         </span>
                         <strong>App Store</strong>
@@ -188,8 +218,8 @@ export default function Footer() {
                     </Link>
                   </Button>
                   <Button
-                    variant="ghost"
-                    className="flex flex-row gap-4 px-7 border rounded-[6px] h-14"
+                    variant="outline"
+                    className="flex flex-row gap-2 hover:bg-primary px-7 border rounded-[6px] w-full h-14 hover:text-white"
                     asChild
                   >
                     <Link href="#">

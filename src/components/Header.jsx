@@ -44,28 +44,25 @@ export default function Header() {
           <Image
             src="/icons/shirteens_logo.svg"
             alt="Shirteens logo"
-            width={40}
-            height={40}
+            width={36}
+            height={36}
             priority
           />
-          <span className="font-bold text-primary text-2xl">Shirteens</span>
+          <span className="font-bold text-2xl">Shirteens</span>
         </Link>
 
         {/* Navbar Links */}
-        <nav className="hidden md:flex gap-6 font-medium">
-          <Link
-            href="/"
-            className="font-bold hover:text-accent transition-colors"
-          >
+        <nav className="hidden md:flex gap-12 font-medium">
+          <Link href="#" className="font-bold transition-colors">
             Início
           </Link>
-          <Link href="/loja" className="hover:text-accent transition-colors">
+          <Link href="#" className="transition-colors">
             Loja
           </Link>
-          <Link href="/sobre" className="hover:text-accent transition-colors">
+          <Link href="#" className="transition-colors">
             Sobre
           </Link>
-          <Link href="/contato" className="hover:text-accent transition-colors">
+          <Link href="#" className="transition-colors">
             Contato
           </Link>
         </nav>
@@ -79,7 +76,7 @@ export default function Header() {
             <User className="w-5 h-5" />
           </Button>
           <Button variant="ghost" size="icon" asChild>
-            <Link href="/cart" className="relative">
+            <Link href="#" className="relative hover:text-foreground">
               <ShoppingCart className="w-5 h-5" />
               {/* {items.length > 0 && (
                   <span className="-top-1 -right-2 absolute flex justify-center items-center bg-accent rounded-full w-4 h-4 text-white text-xs">
@@ -105,9 +102,7 @@ export default function Header() {
                       height={24}
                       priority
                     />
-                    <span className="font-bold text-primary text-2xl">
-                      Shirteens
-                    </span>
+                    <span className="font-bold text-2xl">Shirteens</span>
                   </Link>
                 </SheetTitle>
                 <SheetDescription asChild>

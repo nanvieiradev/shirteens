@@ -28,6 +28,7 @@ export default function Banner() {
             </p>
           </div>
           <Button
+            variant="foreground"
             className="px-10 py-4 rounded-full w-min h-auto font-bold text-[18px]"
             asChild
           >

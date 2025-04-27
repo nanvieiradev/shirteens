@@ -22,7 +22,7 @@ export default function Home() {
       <FeaturesSection />
       <BestSellersSection />
       <PromotionBanner />
-      {/* <CategoriesSection /> */}
+      <CategoriesSection />
       <Banner />
     </>
   )

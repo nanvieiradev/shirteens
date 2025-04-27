@@ -6,16 +6,19 @@ export default function FeaturesSection() {
       title: "Produtos de qualidade e confiabilidade",
       subtitle: "Não decepcionamos",
       badgeLabel: "100% certificado",
+      color: "primary",
     },
     {
       title: "Atendimento atencioso e dedicado",
       subtitle: "Garantimos tudo",
       badgeLabel: "Suporte pronto",
+      color: "secondary",
     },
     {
       title: "Entrega rápida e segura",
       subtitle: "Asseguramos seu pacote",
       badgeLabel: "Por todo o Brasil",
+      color: "accent",
     },
   ]
 
@@ -31,6 +34,7 @@ export default function FeaturesSection() {
               title={feature.title}
               subtitle={feature.subtitle}
               badgeLabel={feature.badgeLabel}
+              color={feature.color}
             />
           ))}
         </div>
