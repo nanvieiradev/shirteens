@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Button } from "../ui/button/Index"
+import { Button } from "../_ui/button/Index"
 
 export default function PromotionBanner() {
   return (

@@ -1,7 +1,7 @@
 "use client"
 
 import Link from "next/link"
-import { Button } from "./ui/button/Index"
+import { Button } from "./_ui/button/Index"
 import { Menu, Search, ShoppingCart, User } from "lucide-react"
 import Image from "next/image"
 import {

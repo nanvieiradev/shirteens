@@ -1,6 +1,6 @@
 import Image from "next/image"
-import Rate from "../ui/rate/Index"
-import { Button } from "../ui/button/Index"
+import Rate from "../_ui/rate/Index"
+import { Button } from "../_ui/button/Index"
 import { ShoppingCart } from "lucide-react"
 import { formatReview } from "@/lib/formatReview"
 

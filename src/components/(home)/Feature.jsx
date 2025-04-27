@@ -1,4 +1,4 @@
-import { Badge } from "../ui/badge"
+import { Badge } from "../_ui/badge"
 
 export default function Feature({ title, subtitle, badgeLabel, color }) {
   return (
