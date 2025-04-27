@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Button } from "../_ui/button"
+import { Button } from "../_ui/button/Index"
 
 export default function HeroSection() {
   return (
