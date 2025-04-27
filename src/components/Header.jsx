@@ -108,34 +108,22 @@ export default function Header() {
                 <SheetDescription asChild>
                   <nav className="sm:hidden flex flex-col gap-6 font-medium text-sm">
                     <Button asChild variant="outline">
-                      <Link
-                        href="/"
-                        className="font-bold hover:text-accent transition-colors"
-                      >
+                      <Link href="#" className="font-bold transition-colors">
                         Início
                       </Link>
                     </Button>
                     <Button asChild variant="outline">
-                      <Link
-                        href="/loja"
-                        className="hover:text-accent transition-colors"
-                      >
+                      <Link href="/#" className="transition-colors">
                         Loja
                       </Link>
                     </Button>
                     <Button asChild variant="outline">
-                      <Link
-                        href="/sobre"
-                        className="hover:text-accent transition-colors"
-                      >
+                      <Link href="/#" className="transition-colors">
                         Sobre
                       </Link>
                     </Button>
                     <Button asChild variant="outline">
-                      <Link
-                        href="/contato"
-                        className="hover:text-accent transition-colors"
-                      >
+                      <Link href="/#" className="transition-colors">
                         Contato
                       </Link>
                     </Button>
