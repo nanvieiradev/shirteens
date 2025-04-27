@@ -1,13 +1,13 @@
 import * as React from "react"
 
-import { Card, CardContent } from "@/components/ui/card"
+import { Card, CardContent } from "@/components/ui/card/Index"
 import {
   Carousel,
   CarouselContent,
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
-} from "@/components/ui/carousel"
+} from "@/components/ui/carousel/Index"
 
 export function CategoriesCarousel() {
   return (
