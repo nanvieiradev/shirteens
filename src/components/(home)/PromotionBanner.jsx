@@ -3,7 +3,7 @@ import { Button } from "../ui/button/Index"
 
 export default function PromotionBanner() {
   return (
-    <section className="flex items-center bg-amber-700 border-b w-full text-white">
+    <section className="flex items-center bg-primary border-b w-full text-white">
       <div className="flex flex-col justify-between gap-12 mx-auto px-4 py-28 container">
         <div className="flex flex-col items-center md:items-start gap-8">
           <h3 className="font-bold text-2xl">Promoção da semana</h3>

@@ -6,7 +6,7 @@ export default function Banner() {
   return (
     <section className="flex items-center bg-background w-full">
       <div className="flex flex-col justify-between items-center gap-12 mx-auto px-4 py-28 container">
-        <div className="flex flex-col justify-between items-center md:items-start gap-10 bg-amber-600 px-6 sm:px-12 lg:px-28 py-28 rounded-4xl text-center sm:text-start container">
+        <div className="flex flex-col justify-between items-center md:items-start gap-10 bg-secondary px-6 sm:px-12 lg:px-28 py-28 rounded-4xl text-center sm:text-start container">
           <div className="flex flex-col items-center md:items-start gap-6">
             <Link href="/" className="flex items-center gap-2">
               <Image
